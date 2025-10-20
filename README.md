@@ -3,12 +3,12 @@ Each question focuses on a fundamental concept of digital image processing — f
 
 ---
 
-## 🪞 Q1 – Image Enhancement  
+##  Q1 – Image Enhancement  
 
 In this part, we explored **intensity transformation techniques** to enhance the visual quality of grayscale images.  
 The goal was to observe how mathematical transformations can highlight specific intensity ranges and improve overall appearance.
 
-### 🔹 1. Negative Transformation  
+###  1. Negative Transformation  
 This method reverses the intensity levels of the image:
 \[
 s = L - 1 - r
@@ -17,7 +17,7 @@ where *L* is the maximum gray level.
 It is especially useful for medical or scientific images where light areas need to appear dark and vice versa.  
 By applying the negative transformation, bright regions became dark and subtle details in shadowed areas became more visible.
 
-### 🔹 2. Logarithmic Transformation  
+###  2. Logarithmic Transformation  
 The log transformation enhances low-intensity pixels and compresses high-intensity values:
 \[
 s = c \times \log(1 + r)
@@ -25,7 +25,7 @@ s = c \times \log(1 + r)
 This technique is ideal when we need to **brighten dark regions** without overexposing bright areas.  
 It effectively brings out small details in darker zones while keeping the overall tone balanced.
 
-### 🔹 3. Gamma (Power-Law) Transformation  
+###  3. Gamma (Power-Law) Transformation  
 The power-law or gamma correction is defined as:
 \[
 s = c \times r^{\gamma}
