@@ -114,7 +114,7 @@ Parameters:
 
 
 **Result:**  
-![Q5 Result](results/Q5-combined_image.png)
+![Q5 Result](results/q5_result.png)
 
 ---
 
